@@ -10,15 +10,41 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _movementClampNegative;
     [SerializeField] private float _movementClampPositive;
     [SerializeField] private float horizontalSpeed;
+    [SerializeField] private int ammoCount;
+    [SerializeField] private Animator anim;
+    [SerializeField] private GameObject shootPar;
+    [SerializeField] private Gun mygunSc;
+
+
+    public int AmmoCount
+    {
+        get
+        {
+            return ammoCount;
+        }
+        set
+        {
+            if (AmmoCount == value)
+            {
+                return;
+            }
+            ammoCount = value;
+        }
+    }
+
     void Start()
     {
-        
+        AmmoCount = mygunSc.GunAmmo;
     }
 
     // Update is called once per frame
     void Update()
     {
         AimPosition();
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ReloadSystem();
+        }
     }
 
     private void AimPosition()
@@ -44,18 +70,27 @@ public class PlayerController : MonoBehaviour
             }
             if (_theTouch.phase==TouchPhase.Ended)
             {
-                RaycastHit hit;
-                // Does the ray intersect any objects excluding the player layer
-                if (Physics.Raycast(gun.transform.position, gun.transform.TransformDirection(Vector3.forward), out hit, 100f))
+                if (AmmoCount>0)
                 {
-                    if (hit.collider.gameObject.tag=="Obstackle")
+                    AmmoCount--;
+                    anim.CrossFade("Shoot", 0.01f);
+                    ShootParticle();
+                    RaycastHit hit;
+                    // Does the ray intersect any objects excluding the player layer
+                    if (Physics.Raycast(gun.transform.position, gun.transform.TransformDirection(Vector3.forward), out hit, 100f))
                     {
-                        Destroy(hit.transform.gameObject);
+                        if (hit.collider.gameObject.tag == "Obstackle")
+                        {
+                            Destroy(hit.transform.gameObject);
+                        }
                     }
                 }
                 aim.gameObject.SetActive(false);
+
             }
         }
+
+        
 
         //aim.rectTransform.position = Input.mousePosition;
         //gun.transform.rotation = Quaternion.Euler(Mathf.Clamp(gun.transform.rotation.x - (Input.mousePosition.y*Time.deltaTime/sens),-20f,20f), gun.transform.rotation.y, gun.transform.rotation.z);
@@ -90,5 +125,28 @@ public class PlayerController : MonoBehaviour
 
 
 
+    }
+
+    private void ShootParticle()
+    {
+        StartCoroutine(ShootTimePar());
+    }
+
+    private IEnumerator ShootTimePar()
+    {
+        shootPar.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        shootPar.SetActive(false);
+    }
+
+    private void ReloadSystem()
+    {
+        anim.CrossFade("Reload",0.01f);
+    }
+
+    public void AmmoSystem()
+    {
+        AmmoCount = mygunSc.GunAmmo;
+        print(AmmoCount);
     }
 }

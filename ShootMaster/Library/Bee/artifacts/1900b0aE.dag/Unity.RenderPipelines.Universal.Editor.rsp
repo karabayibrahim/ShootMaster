@@ -118,6 +118,7 @@
 -define:ENABLE_XR_MODULE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Game/Particle/JMO Assets/Editor/JMOAssets.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -358,6 +359,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/Game/Particle/JMO Assets/Editor/JMOAssets.dll"
 "Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/2D/CinemachineUniversalPixelPerfectEditor.cs"
 "Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/2D/CompositeShadowCaster2DEditor.cs"
 "Library/PackageCache/com.unity.render-pipelines.universal@12.1.7/Editor/2D/Converter/BuiltInToURP2DConverterContainer.cs"

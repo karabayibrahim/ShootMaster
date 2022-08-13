@@ -1,0 +1,970 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'tr' Physical Memory: 16277 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/PC/Documents/GitHub/ShootMaster/ShootMaster
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+60358
+Successfully changed project path to: C:/Users/PC/Documents/GitHub/ShootMaster/ShootMaster
+C:/Users/PC/Documents/GitHub/ShootMaster/ShootMaster
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 174.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Documents/GitHub/ShootMaster/ShootMaster/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12142 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013507 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 99.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012109 seconds.
+Begin MonoManager ReloadAssembly
+An ADB process has shut down when we were accessing it, the following System.Threading.ThreadAbortException has been thrown: Thread was being aborted..
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ShootMaster\ShootMaster\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ShootMaster\ShootMaster\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 112.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1357ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (654ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (62ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (0.7 MB). Loaded Objects now: 5531.
+Memory consumption went from 202.6 MB to 201.9 MB.
+Total: 3.468000 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.285200 ms MarkObjects: 2.589200 ms  DeleteObjects: 0.273600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 165772.961437 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Close 2.prefab
+  artifactKey: Guid(5bb2a19cfdb65401aab08d6d34332780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Close 2.prefab using Guid(5bb2a19cfdb65401aab08d6d34332780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c78b4e1221e505a7aa93871b1e1b75e') in 0.054503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 1 Yellow.prefab
+  artifactKey: Guid(af76dad3edb104af992cc3556207500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 1 Yellow.prefab using Guid(af76dad3edb104af992cc3556207500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f8c474cf4bcb1aa94adf8af50bb2d9') in 0.009483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Messages.prefab
+  artifactKey: Guid(6c777003498264c17b0c02902defae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Messages.prefab using Guid(6c777003498264c17b0c02902defae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86d8ca8d3cd5ca27149db8dd33d854a') in 0.008634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Tab Flag Energy.prefab
+  artifactKey: Guid(23dc171dd4c9a4d648c43bd8eec5c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Tab Flag Energy.prefab using Guid(23dc171dd4c9a4d648c43bd8eec5c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0172111bc6260d562b4e9cc54a1689') in 0.007258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Tab Flag Coin.prefab
+  artifactKey: Guid(b109fda516a0e4346976b328438c55ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Tab Flag Coin.prefab using Guid(b109fda516a0e4346976b328438c55ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8e378315c1ae033aaa970a5276e3be') in 0.006863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Close 3.prefab
+  artifactKey: Guid(258452e947a394780bbbef715bcfda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Close 3.prefab using Guid(258452e947a394780bbbef715bcfda94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454a77b54a36c2f06cfb51dcd87b0a21') in 0.006915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 Black.prefab
+  artifactKey: Guid(7b575dfa75475455fa0812c824bb496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 Black.prefab using Guid(7b575dfa75475455fa0812c824bb496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc45d17b6d29942bcad5a8e99b1bdb0') in 0.007999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 White.prefab
+  artifactKey: Guid(c2c8de9fa48ba4559a668eb7284b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 White.prefab using Guid(c2c8de9fa48ba4559a668eb7284b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685fe814c49322b6d195c4b714d1c029') in 0.007675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 1 Aqua.prefab
+  artifactKey: Guid(24157eadf76194e439eb0487991efe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 1 Aqua.prefab using Guid(24157eadf76194e439eb0487991efe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e1ce71f09f139ac8f5ba117fe25e72') in 0.007764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Red.prefab
+  artifactKey: Guid(40abec28b3c344c2985016edbd10e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Red.prefab using Guid(40abec28b3c344c2985016edbd10e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c215a0834af2d60707c61b22990e9fb6') in 0.007629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Purple.prefab
+  artifactKey: Guid(97e627769039b4d61a14820eee5a130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Purple.prefab using Guid(97e627769039b4d61a14820eee5a130a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f885c5d6ef34ae370290e86e04218d73') in 0.006920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 White.prefab
+  artifactKey: Guid(18d494416eb6f46a08fbea7f91e3faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 White.prefab using Guid(18d494416eb6f46a08fbea7f91e3faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de275c92cc11d743dd314cf9230592b') in 0.007310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 1 Purple.prefab
+  artifactKey: Guid(6b7d9f493ebaf4618bf55dc4d932bd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 1 Purple.prefab using Guid(6b7d9f493ebaf4618bf55dc4d932bd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbdaf20f2bf6e362186b6cc161ce755') in 0.007423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Aqua.prefab
+  artifactKey: Guid(4669b3427ab22423fb3be9e221270cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Aqua.prefab using Guid(4669b3427ab22423fb3be9e221270cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331c7ec988a7256fab937d2e11c7e5a8') in 0.008255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Blue.prefab
+  artifactKey: Guid(3171502a1d88e4eb1bafa4ed5811e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 3 Blue.prefab using Guid(3171502a1d88e4eb1bafa4ed5811e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787d3cd2969edd0ffc8c8c97ced95e08') in 0.006837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 4 Black.prefab
+  artifactKey: Guid(6bf405f01b9a54e0d83be728c101de6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 4 Black.prefab using Guid(6bf405f01b9a54e0d83be728c101de6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce59bc2539b458f0735ea19d90b6c645') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 2 Red.prefab
+  artifactKey: Guid(9dcfc82fea6194a2ca2472044482b386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 2 Red.prefab using Guid(9dcfc82fea6194a2ca2472044482b386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d36ec3e4e35b4d30d82d5cc6368533') in 0.007022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 4 Red.prefab
+  artifactKey: Guid(02b36bd83bb5a4a0899d4b4bd1ce8ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 4 Red.prefab using Guid(02b36bd83bb5a4a0899d4b4bd1ce8ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc59bb0216d3cc67218e428058a3703c') in 0.007822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 Purple.prefab
+  artifactKey: Guid(ab7632d91d80849149f76de6830354e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 Purple.prefab using Guid(ab7632d91d80849149f76de6830354e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e91303f98b8ae948783b8e410cbd613') in 0.007375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Play 1.prefab
+  artifactKey: Guid(0df00c75c7afe4c29b0a1d4e533ba7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Play 1.prefab using Guid(0df00c75c7afe4c29b0a1d4e533ba7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cd88f23d8226eca789197ab1fd68b0') in 0.006692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 Red.prefab
+  artifactKey: Guid(733a18b2474c64e7b8bb3b9df02b1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Buttons/Button Style 5 Red.prefab using Guid(733a18b2474c64e7b8bb3b9df02b1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875dc478c45ef0b658dd213535b8e0f6') in 0.006078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.692405 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Level Completed.prefab
+  artifactKey: Guid(e417a965dbecb403994e9a60fd9b0f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Level Completed.prefab using Guid(e417a965dbecb403994e9a60fd9b0f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c2672a7dba891875b1b7c298f835a7') in 0.014350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Password.prefab
+  artifactKey: Guid(dcc983e8872f04be2bcc731a1c6e4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Password.prefab using Guid(dcc983e8872f04be2bcc731a1c6e4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466cb040438335f2c8bc61c5ecdf0092') in 0.017436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Panel.prefab
+  artifactKey: Guid(9750486bd59ef4f94a73df4e6a661825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Panel.prefab using Guid(9750486bd59ef4f94a73df4e6a661825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16320bc35ad009209871d557a4b352e8') in 0.011617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Victory Stars.prefab
+  artifactKey: Guid(78b5ebfda16714f4cb283239ae15f78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Victory Stars.prefab using Guid(78b5ebfda16714f4cb283239ae15f78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82731e35af9bcda0cdc54e9ef8f2c1a4') in 0.012463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Level Locked.prefab
+  artifactKey: Guid(aa5cf6131268f41feaaa669d930f1519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Level Locked.prefab using Guid(aa5cf6131268f41feaaa669d930f1519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6efd6106ff10a5b5928ce28934d0415') in 0.014535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Level Ready.prefab
+  artifactKey: Guid(d2e137be586ba40d5b754ecf6ff6afe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Panels/Level Ready.prefab using Guid(d2e137be586ba40d5b754ecf6ff6afe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13f25e4b54e14b308604fbb7e970e9d') in 0.013169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.650633 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Currency Gem.prefab
+  artifactKey: Guid(6c8c0a1f260654d69b255234ef1f82de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Currency Gem.prefab using Guid(6c8c0a1f260654d69b255234ef1f82de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb0cc37963f1d28a2acdad8c10c47ab') in 0.007081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Star Dark.prefab
+  artifactKey: Guid(b942ed20ae75c424797da061b1079476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Star Dark.prefab using Guid(b942ed20ae75c424797da061b1079476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b1d116801e6a2b2813df8aa7f3ee2') in 0.006454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Heart.prefab
+  artifactKey: Guid(28db0c3aab5684b4eb55be4ef3794022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Heart.prefab using Guid(28db0c3aab5684b4eb55be4ef3794022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7623674d98a18c8387772578fbbff0') in 0.008564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 1.prefab
+  artifactKey: Guid(0c595801d9318494f952bc5e7374969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 1.prefab using Guid(0c595801d9318494f952bc5e7374969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae87aacce983a550dde124effdfff9fb') in 0.007575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Slider Heart Dark.prefab
+  artifactKey: Guid(3bfe7acfcabc9418da15f1b732f88514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Slider Heart Dark.prefab using Guid(3bfe7acfcabc9418da15f1b732f88514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0311b09f26fcf1aa52159bbeb85f38') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Energy Style 2.prefab
+  artifactKey: Guid(495497f759fca4deba463174a22df9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Energy Style 2.prefab using Guid(495497f759fca4deba463174a22df9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbb24d463dea9db93a4128b27f247e9') in 0.006947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Heart Style 2 Dark.prefab
+  artifactKey: Guid(bc0b7a1194a67469f8fe3ef0169d75a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Heart Style 2 Dark.prefab using Guid(bc0b7a1194a67469f8fe3ef0169d75a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8326722832a606ddbf29df2db0dab0') in 0.007266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Star Style 3.prefab
+  artifactKey: Guid(a42425536781d4924a8212b4a628ae1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Star Style 3.prefab using Guid(a42425536781d4924a8212b4a628ae1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a0180e544976670d200488036d87ba') in 0.007283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 1 Dark.prefab
+  artifactKey: Guid(bb2e3a66a814349139454015a3c376e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 1 Dark.prefab using Guid(bb2e3a66a814349139454015a3c376e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169ee336cdb0019cfe2b788b97f79d10') in 0.007857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Slider Gem Dark.prefab
+  artifactKey: Guid(6fa1e30d898e449189cbef30469f0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Slider Gem Dark.prefab using Guid(6fa1e30d898e449189cbef30469f0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4564758a6de5b83f3f39f4027e1eec41') in 0.006589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Loading Bar Yellow Dark.prefab
+  artifactKey: Guid(7ac3ef5a1fc5c46fb8a884e2d70a075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Loading Bar Yellow Dark.prefab using Guid(7ac3ef5a1fc5c46fb8a884e2d70a075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f7eca78066702770480b6f59c1382c') in 0.006304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 3.prefab
+  artifactKey: Guid(c2aa334e604194827927a5a04a295a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 3.prefab using Guid(c2aa334e604194827927a5a04a295a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb66df6f4047be2aeee4a52e603d0330') in 0.007783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Energy.prefab
+  artifactKey: Guid(bc0cb1d7789e14490b9e436f8aa8f0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Energy.prefab using Guid(bc0cb1d7789e14490b9e436f8aa8f0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f656b5c7c6552f6977a62b99e333d6') in 0.006891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Energy Dark.prefab
+  artifactKey: Guid(217da0f1ed74e4e87a84943511d7fefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Energy Dark.prefab using Guid(217da0f1ed74e4e87a84943511d7fefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404631cc90962302e6d3c94adc3fca0') in 0.006939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Gem Style 2.prefab
+  artifactKey: Guid(6381868f3476d40f89c969a61644fb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Gem Style 2.prefab using Guid(6381868f3476d40f89c969a61644fb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718582cd88601a7c29a7db8a0a7b41f2') in 0.007076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Heart Style 2.prefab
+  artifactKey: Guid(8dcf6421db25a4ec3ab41caff0e444b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Heart Style 2.prefab using Guid(8dcf6421db25a4ec3ab41caff0e444b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da21815e69fc5d97cc19f0798bde9f46') in 0.007596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Loading Bar Green Dark.prefab
+  artifactKey: Guid(35d6e6780d39e483985d83f1ca31e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Loading Bar Green Dark.prefab using Guid(35d6e6780d39e483985d83f1ca31e56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358f0afe8b077c71f3c4c392cc4744f8') in 0.005993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Skull.prefab
+  artifactKey: Guid(52f997a8a12124190acdfe47ab2b31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Progress Icon Skull.prefab using Guid(52f997a8a12124190acdfe47ab2b31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5aeeafa73dd8d2474b52be1249558a7') in 0.007200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 2.prefab
+  artifactKey: Guid(575cb87af308f4c3e86e012b2b2d758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Coin Style 2.prefab using Guid(575cb87af308f4c3e86e012b2b2d758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e48640e5a698c19b3bc3f1b8c7246d1') in 0.007287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Gem Style 3 Dark.prefab
+  artifactKey: Guid(25d736bce3c304c9c95da03686fef3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Progress/Profile Gem Style 3 Dark.prefab using Guid(25d736bce3c304c9c95da03686fef3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0b756ec35e8743cccd1e72107f2d80') in 0.008252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.843289 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Coin Pack 3.prefab
+  artifactKey: Guid(eef4f4b7cb91e487e9d8b79681a87cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Coin Pack 3.prefab using Guid(eef4f4b7cb91e487e9d8b79681a87cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54387743552b445a97c67eef170ea886') in 0.008231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gem Pack 3.prefab
+  artifactKey: Guid(7153abf428e2541abbb7d357fe8c366f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gem Pack 3.prefab using Guid(7153abf428e2541abbb7d357fe8c366f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94faa7ce9d0c3dd7c87e17dc4b7f170f') in 0.007379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gem Pack 4.prefab
+  artifactKey: Guid(5ae75c2bd39cf42d1a94bb736b30ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gem Pack 4.prefab using Guid(5ae75c2bd39cf42d1a94bb736b30ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9971aefe73abd13d0534e4a3dfbc73c') in 0.007756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gift Box Yellow.prefab
+  artifactKey: Guid(80c7b718574bb4d888f137ab570bf6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gift Box Yellow.prefab using Guid(80c7b718574bb4d888f137ab570bf6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991c1804c933e78bf8093c9249a9b115') in 0.008263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gem Pack 1.prefab
+  artifactKey: Guid(19362f3941c184e65b806d7e07add9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gem Pack 1.prefab using Guid(19362f3941c184e65b806d7e07add9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f123136a0a80768add4a5d1bc410f26') in 0.016836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Coin Pack 6.prefab
+  artifactKey: Guid(0a6266465b24e465e861f78dfdf62284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Coin Pack 6.prefab using Guid(0a6266465b24e465e861f78dfdf62284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4bb80aad1ca6788c2cf5836b2955e0') in 0.016446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gift Box Red Open.prefab
+  artifactKey: Guid(0f4640fe127f94b68a870815bd441af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Prefabs/Shop & Gifts/Gift Box Red Open.prefab using Guid(0f4640fe127f94b68a870815bd441af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7233d8896ec983a4f8b3b163866bceb') in 0.020069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.711266 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/complete_VictoryHornsL.png
+  artifactKey: Guid(d07dc8dae47e346cb8a06573d921f4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/complete_VictoryHornsL.png using Guid(d07dc8dae47e346cb8a06573d921f4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49c471ea1c91113909ddc23ff99aef8') in 0.092601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/settings_Slider.png
+  artifactKey: Guid(32ca199eecf724a99af07cf9d499f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/settings_Slider.png using Guid(32ca199eecf724a99af07cf9d499f468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19ef046a61019cef4d492a0407bcd9c') in 0.027390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tabFlag_Green.png
+  artifactKey: Guid(3f817542230674d21980e44d6fcb19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tabFlag_Green.png using Guid(3f817542230674d21980e44d6fcb19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf422445fe5d29dd399a264d217ce5c') in 0.030598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/complete_VictoryStar.png
+  artifactKey: Guid(64f8eb4a25fe643169785ba4aef65d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/complete_VictoryStar.png using Guid(64f8eb4a25fe643169785ba4aef65d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1403f893aa0d9ec04f525c77c0950b46') in 0.026712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/list_HighLight.png
+  artifactKey: Guid(f4e49e21999354cc6a0b8697e634ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/list_HighLight.png using Guid(f4e49e21999354cc6a0b8697e634ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46872bce74e1d87232b66a9e5a1d0eb4') in 0.033008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/settings_SliderHandle.png
+  artifactKey: Guid(930d59d8747814c02ada5351be3843eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/settings_SliderHandle.png using Guid(930d59d8747814c02ada5351be3843eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cde4fbbfaa455826ea082370e04742') in 0.025852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/level_Complete.png
+  artifactKey: Guid(5cdedffe364ff49b6b80612bcf01b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/level_Complete.png using Guid(5cdedffe364ff49b6b80612bcf01b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f995f59a61a29b52de238ce131a2f55') in 0.034539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tittleRibbonOld_Blue.png
+  artifactKey: Guid(0ca7d551c6bcb415baf267ff6c3d1042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tittleRibbonOld_Blue.png using Guid(0ca7d551c6bcb415baf267ff6c3d1042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2b5d118b424eccce6104260ff6a94c') in 0.039062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/complete_VictoryStarEmpty.png
+  artifactKey: Guid(c341a92e4ee3c4a68a0ff03b330a328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/complete_VictoryStarEmpty.png using Guid(c341a92e4ee3c4a68a0ff03b330a328c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74619caee3f8bd60560e92a259aab479') in 0.029172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/login_Password.png
+  artifactKey: Guid(47839b890b83b43abb982511992b0915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/login_Password.png using Guid(47839b890b83b43abb982511992b0915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77d49b4101dc41db221bca942226343') in 0.026811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tabFlag_Blue.png
+  artifactKey: Guid(7f75d78934e434697b68c3d6305918d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tabFlag_Blue.png using Guid(7f75d78934e434697b68c3d6305918d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5a74b04d9f506135213474f24b6416') in 0.029550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/panel_Light1.png
+  artifactKey: Guid(2f17337d78b864016aaa1bfc686cb77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/panel_Light1.png using Guid(2f17337d78b864016aaa1bfc686cb77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0251851a02eeb48c68ca965e717b167') in 0.072350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tittleRibbonOld_Red.png
+  artifactKey: Guid(443de0802f84d43fd9d7ab49194f1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Panels/tittleRibbonOld_Red.png using Guid(443de0802f84d43fd9d7ab49194f1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b192ba74d3fd9170365ea3851eee21') in 0.026162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.893839 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency128_GemBlue.png
+  artifactKey: Guid(f2f095ad2c96a414db138c62259240ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency128_GemBlue.png using Guid(f2f095ad2c96a414db138c62259240ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae28b71bde784b4025a49fa3e029e14') in 0.025100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Dark2.png
+  artifactKey: Guid(ff5456d36aae9419ca19128bee7221ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Dark2.png using Guid(ff5456d36aae9419ca19128bee7221ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c45559559004124529e445d39474427') in 0.024946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarFillBlue.png
+  artifactKey: Guid(dfd4a0d773b654be9bcbe505e71d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarFillBlue.png using Guid(dfd4a0d773b654be9bcbe505e71d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6d9bb8c66a49d66008d24db955a1cd') in 0.031699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency512_GemGreen.png
+  artifactKey: Guid(5a4477d4790ae4a5fa079182cb9302be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency512_GemGreen.png using Guid(5a4477d4790ae4a5fa079182cb9302be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d14574693c8945eb959c8731ff75548') in 0.041221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1FillBlack.png
+  artifactKey: Guid(90ba44169192a436c925b71696b5ac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1FillBlack.png using Guid(90ba44169192a436c925b71696b5ac73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066d9fbf9643a954c8e2475cba78557f') in 0.023927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsHeartDarkEmpty.png
+  artifactKey: Guid(400ff5f4cd8fe4c0aa09f7cf203c6422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsHeartDarkEmpty.png using Guid(400ff5f4cd8fe4c0aa09f7cf203c6422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613a70fa22cab8d577959b5e2c3f189b') in 0.026647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency256_Coin.png
+  artifactKey: Guid(0bdaf83dcdf064756b3e070895921c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency256_Coin.png using Guid(0bdaf83dcdf064756b3e070895921c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ce330190caeb7bd4d7cea1b5dd5952') in 0.031372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar2FillWhite.png
+  artifactKey: Guid(4359db26c17ad4f22b778eea4851deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar2FillWhite.png using Guid(4359db26c17ad4f22b778eea4851deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade06e6e37b312604eade088c851f55a') in 0.025741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconSkull.png
+  artifactKey: Guid(fdd31f4373b994a45953c75f97bdd1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconSkull.png using Guid(fdd31f4373b994a45953c75f97bdd1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434fbf672183694b4e2d8e98eb564655') in 0.025389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1Light.png
+  artifactKey: Guid(40480d38a8a074a20824dd495db6c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1Light.png using Guid(40480d38a8a074a20824dd495db6c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7a8e01c2d761d9c85b44a33a2117fa') in 0.026183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3FillPurple.png
+  artifactKey: Guid(cc5b3ca2bc2754741a6c197301190c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3FillPurple.png using Guid(cc5b3ca2bc2754741a6c197301190c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631687332e9723321b5eaf8d716734f5') in 0.024914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3FillYellow.png
+  artifactKey: Guid(2b35dc8cc635942fd816727acad5c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3FillYellow.png using Guid(2b35dc8cc635942fd816727acad5c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f14f41ba2828455107c0c6dd83b8a0f') in 0.023912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsEnergy.png
+  artifactKey: Guid(fb4c430d736c74d5494b9d0499fbeff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsEnergy.png using Guid(fb4c430d736c74d5494b9d0499fbeff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5483f67c4fed020cb18b4fa66ccbffc') in 0.026021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar2FillBlack.png
+  artifactKey: Guid(327f25a0900e64e0fbdfee499d1e3d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar2FillBlack.png using Guid(327f25a0900e64e0fbdfee499d1e3d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998790e7a81bfe570e22cdda96c55eb4') in 0.026523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Dark3.png
+  artifactKey: Guid(bd354f436441e48ad96f453de9c5686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Dark3.png using Guid(bd354f436441e48ad96f453de9c5686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21117700713b13abcf12e2dd51c374ad') in 0.026217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar2FillGreen.png
+  artifactKey: Guid(5c2b9901125ae47f6a5eda0f19578c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar2FillGreen.png using Guid(5c2b9901125ae47f6a5eda0f19578c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dc8c8a716bb850d2e35bdaf90855d4') in 0.024452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3Light.png
+  artifactKey: Guid(fb9ed1a35634f44deb5f5b8e0bc07156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3Light.png using Guid(fb9ed1a35634f44deb5f5b8e0bc07156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d738cfcc0749082f0881c164d6c31d') in 0.015213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1FillPink.png
+  artifactKey: Guid(bb20ceb8c2d9a49fa91a131b1e036e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1FillPink.png using Guid(bb20ceb8c2d9a49fa91a131b1e036e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9454c8eca4a762edcc8794c407ec42a6') in 0.017160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarDark.png
+  artifactKey: Guid(c90ec9b87913849d486f6c5d8d6c17bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/loading_BarDark.png using Guid(c90ec9b87913849d486f6c5d8d6c17bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1eb708fbebbf0240cc71d00755b6d2b') in 0.016532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Light3.png
+  artifactKey: Guid(8494db57b363845f584fce6d99bed2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Light3.png using Guid(8494db57b363845f584fce6d99bed2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096b50e5a84d571d0a9c90558c84629e') in 0.015130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconSkullLightEmpty.png
+  artifactKey: Guid(dedcfecae6d4e4ee88d89a7b5e1d9c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconSkullLightEmpty.png using Guid(dedcfecae6d4e4ee88d89a7b5e1d9c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5b5b2bc8b4f05f19f2de80caeb0a7e') in 0.016254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Dark4.png
+  artifactKey: Guid(7e939b2d7b42f46ee914870cbf2a2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/label_Dark4.png using Guid(7e939b2d7b42f46ee914870cbf2a2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e77d7a4a86e7ed7d69031c06ed39c2') in 0.018339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsHeartLightEmpty.png
+  artifactKey: Guid(b5202a42f54ff42fa8d3685c2ee2ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsHeartLightEmpty.png using Guid(b5202a42f54ff42fa8d3685c2ee2ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80baa2e9a6d411279d529b762d793d23') in 0.013930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1FillBlue.png
+  artifactKey: Guid(6493b2ff079184fdb95a60ca9c37cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar1FillBlue.png using Guid(6493b2ff079184fdb95a60ca9c37cfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33f462bb27aa7944f2520f9506745af') in 0.016360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3Dark.png
+  artifactKey: Guid(12ee2f559b59a47e6ad3f6a34e590c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_Bar3Dark.png using Guid(12ee2f559b59a47e6ad3f6a34e590c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecab3ece18aeca3fb853e29d62eb8f04') in 0.018603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsDark.png
+  artifactKey: Guid(da68171fc89a04f57972c20c1a450a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/progress_IconsDark.png using Guid(da68171fc89a04f57972c20c1a450a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b53b7dfed8e0a9eb3881df4e49fff55') in 0.021609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency128_GemPurple.png
+  artifactKey: Guid(63e9e5b8dbda34c43b7116228db469fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Progress/currency128_GemPurple.png using Guid(63e9e5b8dbda34c43b7116228db469fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196a134959c9d5283b4fe5acd1b4aa31') in 0.017168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.514519 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationPurple3.png
+  artifactKey: Guid(1cfce6c94e76341de95b9fb972742bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationPurple3.png using Guid(1cfce6c94e76341de95b9fb972742bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1e4487ec5882059402d6a3d85b02c0') in 0.031106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_GemPack1.png
+  artifactKey: Guid(5088d2f35e6e34bf98aaf91714df8d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_GemPack1.png using Guid(5088d2f35e6e34bf98aaf91714df8d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd62ff3014cef0c7cf67585cefe83044') in 0.038290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow5.png
+  artifactKey: Guid(550f028aeda764121b37498f5143ff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow5.png using Guid(550f028aeda764121b37498f5143ff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa71dd61f5e880b2d8488a98561a6158') in 0.035722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRed4.png
+  artifactKey: Guid(8dfdd5086244743898ea6ae2d00b1dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRed4.png using Guid(8dfdd5086244743898ea6ae2d00b1dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4f041b8187bafb837601c7029f8c8f') in 0.033396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow3.png
+  artifactKey: Guid(6b9559f4fda194477b7fa5e3cfbddfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow3.png using Guid(6b9559f4fda194477b7fa5e3cfbddfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd72886510b08c3aa68a5bf6a8ce15c') in 0.034871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_CoinPack2.png
+  artifactKey: Guid(8ad6b37de333942f5bc54f8c8a4119ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_CoinPack2.png using Guid(8ad6b37de333942f5bc54f8c8a4119ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435d1cd5e160285c949b411ca0544756') in 0.038080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_PurpleOpen.png
+  artifactKey: Guid(9c578b62b0c8c49448e7ff96d17ba96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_PurpleOpen.png using Guid(9c578b62b0c8c49448e7ff96d17ba96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc480b5e6178fcaa95fe989f1c877c4c') in 0.044023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_GemPack3.png
+  artifactKey: Guid(91bf0519e796f4953b3cc0fe1211153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_GemPack3.png using Guid(91bf0519e796f4953b3cc0fe1211153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b29a896ca86fac6caf4c51bb449951a') in 0.039906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationSparkle.png
+  artifactKey: Guid(10388ccd59fe9472ba112412b6042c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationSparkle.png using Guid(10388ccd59fe9472ba112412b6042c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d238b292a6265d5c77c4249fd30c973') in 0.024994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationPurpleOpen4.png
+  artifactKey: Guid(03b1da0a241c9497ea921761847d668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationPurpleOpen4.png using Guid(03b1da0a241c9497ea921761847d668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7e35b6cb97af760d85da219a98130c') in 0.029010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow4.png
+  artifactKey: Guid(a4f7901d2828241d8aa536831c601b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow4.png using Guid(a4f7901d2828241d8aa536831c601b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afea117d493b8733f9c310716a2d8cc4') in 0.033394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRedOpen5.png
+  artifactKey: Guid(67bf8da3118fc482baf84d8bdc01ca19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRedOpen5.png using Guid(67bf8da3118fc482baf84d8bdc01ca19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1208e2767ac2e9e473a60147b4190d1') in 0.026100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRedOpen2.png
+  artifactKey: Guid(96707c0bfe4ff4dbe9255653ec10d8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRedOpen2.png using Guid(96707c0bfe4ff4dbe9255653ec10d8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314a051a531badc5c75ae836dec756f9') in 0.035322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_CoinPack1.png
+  artifactKey: Guid(9a3765574f2234afe8cc09c4d117595d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_CoinPack1.png using Guid(9a3765574f2234afe8cc09c4d117595d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9157b16c08b64d3219a62fba6391863b') in 0.028257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRedOpen1.png
+  artifactKey: Guid(bb8ee62aa050246779040202b6b39cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationRedOpen1.png using Guid(bb8ee62aa050246779040202b6b39cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1f1f5cff0ab5e2b61c9ebdb53d9997') in 0.023211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow2.png
+  artifactKey: Guid(7d4989a4a450d46b184ec02fbce34acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_AnimationYellow2.png using Guid(7d4989a4a450d46b184ec02fbce34acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9aed5e50c17278b436891292dd3d17') in 0.023598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_GemPack6.png
+  artifactKey: Guid(8fa362ed948464a9999050479f87ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/shop_GemPack6.png using Guid(8fa362ed948464a9999050479f87ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a113642b7a478245cd507e03a8cee8') in 0.029522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_Red.png
+  artifactKey: Guid(c309996d4adb5488289e5539869e381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Shop & Gifts/gift_Red.png using Guid(c309996d4adb5488289e5539869e381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2326ba86b2e7d67ec62a2bb14d2d91f') in 0.025125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.854195 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_1_Blue.png
+  artifactKey: Guid(3cb2428756ad4458bbba87f24ad2d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_1_Blue.png using Guid(3cb2428756ad4458bbba87f24ad2d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad76a71e424fad69ddff15cde5ca26d0') in 0.032992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Blue.png
+  artifactKey: Guid(325a48202e6e041f39127550bd056254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Blue.png using Guid(325a48202e6e041f39127550bd056254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcede343aca285b5cc35d753ef94ce2') in 0.019747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/label_Notifications.png
+  artifactKey: Guid(27e4a2db0a8284a8293ef459300ffce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/label_Notifications.png using Guid(27e4a2db0a8284a8293ef459300ffce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c070cd019b13e7e61629449b320a5c8') in 0.023010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_shopRed.png
+  artifactKey: Guid(31be6215d04044f4a9b653635baf57c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_shopRed.png using Guid(31be6215d04044f4a9b653635baf57c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0e6cd7ae862c0a27eed057aac7497a') in 0.035328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_2_Yellow.png
+  artifactKey: Guid(259c0f9e8601c4e89ae4dca60cf5640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_2_Yellow.png using Guid(259c0f9e8601c4e89ae4dca60cf5640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b6f544554f206cbb69ff1cad8b2c42') in 0.027951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_Messages.png
+  artifactKey: Guid(817fa2dce385b4030b0b857cb19228e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_Messages.png using Guid(817fa2dce385b4030b0b857cb19228e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d961de7395c7647e0cab563b63fbf25') in 0.018939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Green.png
+  artifactKey: Guid(b1286ed66b2d34d139981e82f1faa2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Green.png using Guid(b1286ed66b2d34d139981e82f1faa2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366d3e639dff974dbe792416c0279ac2') in 0.019147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Red.png
+  artifactKey: Guid(d40cda0d1575b44af81c6532bec4cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Red.png using Guid(d40cda0d1575b44af81c6532bec4cebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b7ed7aed9c146ce36d6420fa7e51d2') in 0.020589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_White.png
+  artifactKey: Guid(386c94c26d6904e8fa68371eebbbaaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_White.png using Guid(386c94c26d6904e8fa68371eebbbaaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9233de149d47b39ef5ef9d56550a3c') in 0.014591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_Close1.png
+  artifactKey: Guid(1ddce6fcf71ac4cbd9d91ca25101556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_Close1.png using Guid(1ddce6fcf71ac4cbd9d91ca25101556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ca75514493605c8f58fbde7e24c142') in 0.020490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Black.png
+  artifactKey: Guid(faab2a7b64954475c846e64886f97afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Black.png using Guid(faab2a7b64954475c846e64886f97afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e94cea5ae9b49ba0c20f09981d2ef1') in 0.015521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_3_White.png
+  artifactKey: Guid(972a7ac4ffe344cb6b704a35f2a6d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_3_White.png using Guid(972a7ac4ffe344cb6b704a35f2a6d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac1d150c02b74f282d46742883d8164') in 0.016939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_DailyReward.png
+  artifactKey: Guid(53c138eb6a76e4f2e82acdc406844c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_DailyReward.png using Guid(53c138eb6a76e4f2e82acdc406844c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb93e0321cedc1a814361df058f3028') in 0.016917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Black.png
+  artifactKey: Guid(405cdb855ae684b89901d52ea43f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Black.png using Guid(405cdb855ae684b89901d52ea43f59fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc9e68b80ee058fcec94ac4182816be') in 0.017432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Orange.png
+  artifactKey: Guid(bb2001a8e9e3e4d0bbae5ce24bee1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Orange.png using Guid(bb2001a8e9e3e4d0bbae5ce24bee1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363e31b467d23b2b314472a11a124348') in 0.017488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_2_Red.png
+  artifactKey: Guid(98d0eb4bb725347ef86cde588bc5e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_2_Red.png using Guid(98d0eb4bb725347ef86cde588bc5e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64a2eb3341a70bd0d8f98d4b2cd0703') in 0.017299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Yellow.png
+  artifactKey: Guid(a86a2e35d278541428b160555e29bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Yellow.png using Guid(a86a2e35d278541428b160555e29bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cd152c23a81c46b702a3975bb9cdc3') in 0.014626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_3_Yellow.png
+  artifactKey: Guid(a843b9b58800f49028daab2fb4bd6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_3_Yellow.png using Guid(a843b9b58800f49028daab2fb4bd6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cad5309004d0090f451127cfbdc7f2') in 0.016632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Green.png
+  artifactKey: Guid(f7884d0b9b5314107ad7aef8dcc7e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_4_Green.png using Guid(f7884d0b9b5314107ad7aef8dcc7e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3d46d5a82382313aa53fe57b1f2bff') in 0.018497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Pink.png
+  artifactKey: Guid(538daf39402b84b659044ae43ee18af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_5_Pink.png using Guid(538daf39402b84b659044ae43ee18af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7006e57ae2681ef4c5cc64029452ee') in 0.021677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_Play2.png
+  artifactKey: Guid(9a1ec398ceb5e46bd9be19af5bac3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Sprites/UI Kit Pro - Casual Glossy/Images/Buttons/button_Play2.png using Guid(9a1ec398ceb5e46bd9be19af5bac3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7540c89aead855e2f34c42debf6e41f1') in 0.031190 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
