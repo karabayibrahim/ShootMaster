@@ -117,6 +117,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -331,6 +334,7 @@
 -r:"C:/Users/PC/Documents/GitHub/ShootMaster/ShootMaster/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll"
 -r:"C:/Users/PC/Documents/GitHub/ShootMaster/ShootMaster/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Users/PC/Documents/GitHub/ShootMaster/ShootMaster/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
@@ -367,7 +371,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Game/Particle/JMO Assets/Editor/JMOAssets.dll"
 "Assets/Game/Models/Aligned Games/Polygonal Modern Weapons Asset Package/Scripts/Utility/FlyCameraBehaviour.cs"
 "Assets/Game/Models/FROOD/Scripts/Spin.cs"
 "Assets/Game/Particle/JMO Assets/Cartoon FX/Demo/Assets/CFX_AutoStopLoopedEffect.cs"
@@ -396,6 +399,8 @@
 "Assets/Game/Scripts/Gun/Gun.cs"
 "Assets/Game/Scripts/MonoSingleton/MonoSingleton/MonoSingleton.cs"
 "Assets/Game/Scripts/PlayerController/PlayerController.cs"
+"Assets/Game/Scripts/SpawnManager/SpawnManager.cs"
+"Assets/Game/Scripts/SpawnObject/SpawnObject.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

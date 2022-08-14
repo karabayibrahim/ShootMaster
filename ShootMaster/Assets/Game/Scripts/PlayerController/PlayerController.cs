@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private float _movementClampNegative;
     [SerializeField] private float _movementClampPositive;
+    [SerializeField] private float _movementClampNegativeVer;
+    [SerializeField] private float _movementClampPositiveVer;
     [SerializeField] private float horizontalSpeed;
     [SerializeField] private int ammoCount;
     [SerializeField] private Animator anim;
@@ -62,7 +64,7 @@ public class PlayerController : MonoBehaviour
                     target.transform.Translate(touchPos.x * (horizontalSpeed / 100) * Time.deltaTime, 0, 0);
                     target.transform.position = new Vector3(Mathf.Clamp(target.transform.position.x, _movementClampNegative, _movementClampPositive), target.transform.position.y, target.transform.position.z);
                     target.transform.Translate(0, touchPos.y * (horizontalSpeed / 100) * Time.deltaTime, 0);
-                    target.transform.position = new Vector3(target.transform.position.x, Mathf.Clamp(target.transform.position.y, _movementClampNegative, _movementClampPositive), target.transform.position.z);
+                    target.transform.position = new Vector3(target.transform.position.x, Mathf.Clamp(target.transform.position.y, _movementClampNegativeVer, _movementClampPositiveVer), target.transform.position.z);
                     gun.transform.LookAt(aim.transform);
                    
                     //aim.rectTransform.Translate(touchPos.x * (horizontalSpeed) * Time.deltaTime, 0, 0);
